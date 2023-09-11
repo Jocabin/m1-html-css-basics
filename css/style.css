@@ -47,6 +47,10 @@ nav {
     padding: 2rem;
 }
 
+nav {
+    z-index: 999;
+}
+
 section:hover,
 nav:hover {
     border-color: deeppink;
