@@ -1,3 +1,5 @@
+@import url('../index.css');
+
 body {
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -137,4 +139,12 @@ nav a:hover {
 [id="trailer"] div i {
     font-size: 2rem;
     color: chartreuse;
+}
+
+#paro {
+    transition: all 300ms ease-in-out;
+}
+
+#paro:hover {
+    transform: rotate(180deg);
 }
